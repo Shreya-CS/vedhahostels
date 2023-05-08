@@ -63,7 +63,7 @@ a {
 }
 
 section {
-    padding: 3.125rem 0;
+    padding: 3rem 0;
 }
 
 .main-btn {
@@ -229,6 +229,10 @@ p {
     position: relative;
 }
 
+.welcome h3 {
+    padding-top: 2rem;
+}
+
 .banner_wrapper .swiper-slide::before {
     content: "";
     position: absolute;
@@ -289,13 +293,20 @@ p {
 }
 
 /* 4 About */
-.about_wrapper {
-    padding-top: 5rem;
+/* .about_wrapper {
+    padding-top: 2rem;
+} */
+.about section {
+    padding-top: .2rem;
 }
 
 #about img {
     height: 500px;
     width: 400px;
+}
+
+.row-about {
+    padding-top: 3rem;
 }
 
 /*5  Room */
@@ -361,6 +372,7 @@ p {
 /* 6 Services */
 .service-item-wrap {
     background-color: var(--bg-color);
+    margin-bottom: 5rem;
 }
 
 .service-menu-area ul li a {
@@ -388,7 +400,7 @@ p {
     box-shadow: 0 .125rem 1.25rem rgb(34 30 31 / 40%);
 }
 
-/* 
+
 .service-menu-area ul li:nth-child(1) {
     margin-left: 0.5625rem;
 }
@@ -402,9 +414,9 @@ p {
 }
 
 .service-menu-area ul li:nth-child(4) {
-    margin-left: -8.8125rem;
+    margin-left: -9.8125rem;
 }
-*/
+
 .service-menu-area ul li a p,
 .service-menu-area ul li a h5 {
     padding-left: 6.875rem;
@@ -443,6 +455,13 @@ p {
     z-index: 3;
     color: var(--text-white)
 }
+
+.carousel-inner {
+    width: 100%;
+    height: 500px;
+}
+
+.carousel-inner img {}
 
 /*7 Team Section */
 .team_wrapper .card {
@@ -499,6 +518,15 @@ p {
     overflow: hidden;
     position: relative;
 }
+
+/* .pictures {
+    gap: 0.5rem;
+
+} */
+
+
+
+
 
 /* .gallery-item:before,
 .gallery-item:after,
@@ -807,6 +835,13 @@ p {
     /* room */
     .room-item .room-content {
         padding: 2rem 1.875rem;
+    }
+
+    .about_wrapper img {
+
+        display: block;
+        max-width: 100%;
+        height: auto;
     }
 
 }
