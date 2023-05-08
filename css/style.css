@@ -66,6 +66,7 @@ section {
     padding: 3rem 0;
 }
 
+
 .main-btn {
     font-size: 1rem;
     font-weight: 500;
@@ -296,7 +297,10 @@ p {
 /* .about_wrapper {
     padding-top: 2rem;
 } */
-.about section {
+/* .about section {
+    padding-top: .2rem;
+} */
+.about_wrapper {
     padding-top: .2rem;
 }
 
@@ -546,6 +550,10 @@ p {
 
 .gallery-item:after {
     top: 50%;
+}
+
+.cards {
+    margin-bottom: 2rem;
 }
 
 .gallery-item img {
