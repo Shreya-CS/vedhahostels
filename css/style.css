@@ -179,6 +179,22 @@ iframe {
     }
 }
 
+@media screen and (max-width:500px) {
+    iframe {
+        width: 20rem;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    iframe {
+        width: 13rem;
+        height: 300px;
+    }
+}
+
+
+
 .section-title:after {
     content: "";
     background-image: url('../images/title-icon.webp');
