@@ -206,6 +206,7 @@ iframe {
         height: 300px;
     }
 }
+
 @media screen and (max-width:1180px) {
     iframe {
         width: 28rem;
@@ -229,7 +230,7 @@ iframe {
 
 
 
-.section-title:after {
+/* .section-title:after {
     content: "";
     background-image: url('../images/title-icon.webp');
     background-position: center center;
@@ -237,7 +238,7 @@ iframe {
     display: block;
     margin-top: -0.9375rem;
     height: .9375rem;
-}
+} */
 
 /* 2 Navbar */
 .header_wrapper .navbar {
@@ -925,9 +926,9 @@ iframe {
 
 
     /* About */
-    .about_wrapper {
+    /* .about_wrapper {
         padding-top: 3rem;
-    }
+    } */
 
     /* services */
     .service-menu-area {
