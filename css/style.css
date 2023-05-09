@@ -139,6 +139,46 @@ p {
     align-items: center;
 }
 
+iframe {
+    width: 45rem;
+    height: 300px;
+}
+
+@media screen and (max-width:600px) {
+    iframe {
+        width: 27rem;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    iframe {
+        width: 30rem;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    iframe {
+        width: 43rem;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:1240px) {
+    iframe {
+        width: 30rem;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:1500px) {
+    iframe {
+        width: 36rem;
+        height: 300px;
+    }
+}
+
 .section-title:after {
     content: "";
     background-image: url('../images/title-icon.webp');
