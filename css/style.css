@@ -397,17 +397,21 @@ p {
     text-align: center;
     border-radius: 100%;
     float: left;
+    margin-bottom: 1rem;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
-.service-menu-area ul li a .service-icon:hover,
-.service-menu-area ul li a.active .service-icon {
-    background-color: #021832;
-    color: #fff;
-    box-shadow: 0 .125rem 1.25rem rgb(34 30 31 / 40%);
+.service-menu-area ul li a .service-icon:hover {
+    /* background-color: #021832; */
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
 }
 
+.service-menu-area ul li a,
+.service-menu-area ul li a.active .service-icon {
+    /* background-color: #021832; */
+    color: #fff;
+}
 
 .service-menu-area ul li:nth-child(1) {
     margin-left: 0.5625rem;

@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
+
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
@@ -20,18 +21,42 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive-style.css">
     <style>
-        @media screen and(max-width:600px) {
-            .image {
-                
+        .facility {
+            display: flex;
+            padding-left: 100px;
+        }
+
+        .facility i {
+            font-size: 20px;
+        }
+
+        .about_wrapper {
+            height: 516px;
+        }
+
+        .list {
+            padding-left: 5rem;
+        }
+
+        .list li {
+            margin-bottom: 1.3rem;
+        }
+
+        .list i {
+            color: #e46459;
+            padding-right: 1.5rem;
+        }
+
+        @media screen and (max-width:600px) {
+            .list {
+                padding-left: 2rem;
+                margin-top: 1.5rem;
             }
         }
     </style>
-
 </head>
 
-
-
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100" class="about">
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
     <!-- Navbar section -->
     <header class="header_wrapper">
         <nav class="navbar navbar-expand-lg">
@@ -79,45 +104,64 @@
         </nav>
     </header>
     <!-- Navbar section exit -->
+
+    <!--Services-->
     <div class="row-about">
-        <div class="col-sm-12 section-title text-center mb-5">
-            <h3>About <span>Us</span></h3>
+        <div class="col-sm-12 text-center mb-5" style="margin-top:0">
+            <h3>Our <span>Services</span></h3>
         </div>
     </div>
-    <section id="about" class="about_wrapper">
-        <div class="container">
-            <div class="row flex-lg-row flex-column-reverse ">
-                <div class="col-lg-6 text-center text-lg-start">
-                    <h3>Welcome to <span>Vedha Hostel <br class="d-none d-lg-block">
-                            the haven</span> of your home</h3>
-                    <p>The hostel lies close to PSG Tech PSGR Krishnammal College for women and even more educational
-                        institutions.
-                        We strive to relish your tastebuds with home-like tasty and hygienic meals that are both
-                        vegetarian and non-vegetarian.
-                    </p>
-                    <a href="#" class="main-btn mt-4">Explore</a>
-                </div>
-                <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center image">
-                    <img decoding="async" src="./images/hostel.jpg" class="img-fluid" alt="About Us"
-                        style="height:450px;width:400px">
-                </div>
+    <div class="container" style="margin-bottom: 4.1rem;">
+        <div class="row">
+            <div class="col image">
+                <img class="rounded mx-auto d-block" src="./images/hostel.jpg" alt="" style="height:450px;width:400px;">
+            </div>
+            <div class="col list">
+                <div class=" contact-info">
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-arrow-right"></i>Fully furnished
+                            Individual cot and cupboard with study table</a>
+                        </li>
+                        <li><i class="fa fa-arrow-right"></i>Lift facility available</a></li>
+                        <li><i class="fa fa-arrow-right"></i>24*7 security Cctv</a></li>
+                        <li><i class="fa fa-arrow-right"></i>Pickup and drop facility available</a></li>
+                        <li><i class="fa fa-arrow-right"></i>Ac and non AC rooms</a></li>
+                        <li><i class="fa fa-arrow-right"></i>Tasty homely veg and non veg food</a></li>
+                        <li><i class="fa fa-arrow-right"></i>Laundry available</a></li>
+                        <li><i class="fa fa-arrow-right"></i>Attached bathrooms with Heater</a></li>
+                        <li><i class="fa fa-arrow-right"></i>24*7 Geyser available</a></li>
+                        <li><i class="fa fa-arrow-right"></i>Parking facility available</a></li>
 
+                    </ul>
+                </div>
             </div>
         </div>
+    </div>
     </section>
+
+
+
+
+
+
+
+
+
     <!-- Footer section -->
     <section id="contact" class="footer_wrapper mt-3 mt-md-0 pb-0">
         <div class="container pb-3">
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <h5>Hostel Location</h5>
-                    <p class="ps-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim erat
+                    <p class="ps-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim
+                        erat
                         ut
                         laoreet
                         pharetra....</p>
                     <div class="contact-info">
                         <ul class="list-unstyled">
-                            <li><a href="#"><i class="fa fa-home me-3"></i> No. 96, South City, London</a></li>
+                            <li><a href="#"><i class="fa fa-home me-3"></i> No. 96, South City, London</a>
+                            </li>
                             <li><a href="#"><i class="fa fa-phone me-3"></i>+1 222 3333</a></li>
                             <li><a href="#"><i class="fa fa-envelope me-3"></i>info@example.com</a></li>
                         </ul>
@@ -142,6 +186,22 @@
                     <li><a href="#">Return Policy</a></li>
                 </ul>
             </div> -->
+                <div class="col-lg-3 col-md-6">
+                    <h5>Hostel Location</h5>
+                    <p class="ps-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim
+                        erat
+                        ut
+                        laoreet
+                        pharetra....</p>
+                    <div class="contact-info">
+                        <ul class="list-unstyled">
+                            <li><a href="#"><i class="fa fa-home me-3"></i> No. 96, South City, London</a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-phone me-3"></i>+1 222 3333</a></li>
+                            <li><a href="#"><i class="fa fa-envelope me-3"></i>info@example.com</a></li>
+                        </ul>
+                    </div>
+                </div>
                 <div class="col-lg-3 col-md-6 subscribe">
                     <h5>Newsletter</h5>
                     <div class="form-group mb-4">
@@ -161,8 +221,19 @@
         <div class="container-fluid copyright-section">
             <p>Copyright <a href="#">@ VedhaHostels.</a> All Rights Reserved</p>
         </div>
+
     </section>
     <!-- Footer section exit -->
+
+    <!-- Bootstrap 5 JS CDN Links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Custom Js Link -->
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
